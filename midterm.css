@@ -1,0 +1,30 @@
+body {background-color: #C0C0C0;
+      display: flex;
+      min-height: 100vh;
+      margin: 5;
+   }
+
+nav     {background: white;}
+header {background: orange;}
+
+header, article, nav {padding: 1em;
+                     text-align: left;
+  } 
+
+h1, p{font-style: bold;
+    font-family: Helvetica, sans-serif;}
+
+h2, li {font-family: Helvetica, monospace;}
+
+
+
+p {line-height: 20px;
+   padding: 5px;}
+
+a {text-decoration: none}
+a:link {color:orange;}
+a:visited {color:black;}
+a:hover {background-color:orange;}
+a:active {color: #C0C0C0;
+          background-color: white;}
+
